@@ -1,0 +1,8 @@
+.git
+.idea
+target
+project/project
+project/target
+.testcontainers*
+*.iml
+.bsp
