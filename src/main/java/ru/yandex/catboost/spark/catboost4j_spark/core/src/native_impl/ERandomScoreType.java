@@ -8,39 +8,37 @@
 
 package ru.yandex.catboost.spark.catboost4j_spark.core.src.native_impl;
 
-public enum EAucType {
-  Classic,
-  Ranking,
-  Mu,
-  OneVsAll;
+public enum ERandomScoreType {
+  NormalWithModelSizeDecrease,
+  Gumbel;
 
   public final int swigValue() {
     return swigValue;
   }
 
-  public static EAucType swigToEnum(int swigValue) {
-    EAucType[] swigValues = EAucType.class.getEnumConstants();
+  public static ERandomScoreType swigToEnum(int swigValue) {
+    ERandomScoreType[] swigValues = ERandomScoreType.class.getEnumConstants();
     if (swigValue < swigValues.length && swigValue >= 0 && swigValues[swigValue].swigValue == swigValue)
       return swigValues[swigValue];
-    for (EAucType swigEnum : swigValues)
+    for (ERandomScoreType swigEnum : swigValues)
       if (swigEnum.swigValue == swigValue)
         return swigEnum;
-    throw new IllegalArgumentException("No enum " + EAucType.class + " with value " + swigValue);
+    throw new IllegalArgumentException("No enum " + ERandomScoreType.class + " with value " + swigValue);
   }
 
   @SuppressWarnings("unused")
-  private EAucType() {
+  private ERandomScoreType() {
     this.swigValue = SwigNext.next++;
   }
 
   @SuppressWarnings("unused")
-  private EAucType(int swigValue) {
+  private ERandomScoreType(int swigValue) {
     this.swigValue = swigValue;
     SwigNext.next = swigValue+1;
   }
 
   @SuppressWarnings("unused")
-  private EAucType(EAucType swigEnum) {
+  private ERandomScoreType(ERandomScoreType swigEnum) {
     this.swigValue = swigEnum.swigValue;
     SwigNext.next = this.swigValue+1;
   }

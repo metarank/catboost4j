@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.metarank</groupId>
-    <artifactId>catboost4j</artifactId>
+    <artifactId>catboost-train-java</artifactId>
     <version>1.1.1-1</version>
 
-    <name>Catboost4j: Java lightweight Catboost wrapper</name>
-    <description>A high-level wrapper for Catboost toolkit</description>
-    <url>https://github.com/metarank/catboost4j</url>
+    <name>Catboost-train-java: Java lightweight Catboost wrapper for model training</name>
+    <description>A high-level wrapper for Catboost toolkit training API</description>
+    <url>https://github.com/metarank/catboost-train-java</url>
 
     <developers>
         <developer>
@@ -30,7 +30,7 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/metarank/catboost4j.git</url>
+        <url>https://github.com/metarank/catboost-train-java.git</url>
     </scm>
 
     <properties>
