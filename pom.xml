@@ -6,7 +6,7 @@
 
     <groupId>io.github.metarank</groupId>
     <artifactId>catboost-train-java</artifactId>
-    <version>1.1.1-1</version>
+    <version>1.2.2-1</version>
 
     <name>Catboost-train-java: Java lightweight Catboost wrapper for model training</name>
     <description>A high-level wrapper for Catboost toolkit training API</description>
@@ -41,7 +41,7 @@
         <dependency>
             <groupId>ai.catboost</groupId>
             <artifactId>catboost-common</artifactId>
-            <version>1.1.1</version>
+            <version>1.2.2</version>
         </dependency>
         <dependency>
             <groupId>org.junit.platform</groupId>
